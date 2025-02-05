@@ -1,0 +1,11 @@
+name = input("Enter name: ")
+father = input("Enter father name: ")
+age = int(input("Enter age: "))
+contact = int(input("Enter contact no: "))
+id = input("Enter id(alphanumeric): ")
+
+print(f"Name is {name}")
+print(f"Father name is {father}")
+print(f"Age is {age}")
+print(f"Contact number is {contact}")
+print(f"Id is {id}")
