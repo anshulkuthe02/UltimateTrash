@@ -1,0 +1,6 @@
+file = open("Ak.txt","w+")
+name = input("Enter your name: ")
+age = int(input("enter age: "))
+file.write(f"Name is: {name}\n")
+file.write(f"Age is: {age}")
+file.close()
